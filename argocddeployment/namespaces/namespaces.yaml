@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: argocdmanager
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: argocdna 
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: argocdeu 
+
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: argocdasia 

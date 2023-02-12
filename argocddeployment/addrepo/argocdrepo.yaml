@@ -1,0 +1,50 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: argocd-repo
+  namespace: argocdmanager
+  labels:
+    argocd.argoproj.io/secret-type: repository
+stringData:
+  url: git@gitlab.com:aifi-ml/production/deployments/tools/argocd.git
+  password: Konto!3!
+  username: francis.poku@aifi.com
+  sshPrivateKey: |
+    -----BEGIN OPENSSH PRIVATE KEY-----
+    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
+    -----END OPENSSH PRIVATE KEY-----
